@@ -1,0 +1,43 @@
+---
+title: "HeartDiseaseDoc"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exploratory Data Analysis (EDA) of heart disease and its most and least correlated attributes
+
+
+
+```{r}
+#Motivation and Overview:
+```
+Heart is an important organ in a human body. But sometimes organs are affected by various diseases that affected human bodies. Heart is also get affected by various diseases that may lead a human to dead. So, it is important to know about the diseases that can cause severe heart issue. Here we took an approach where we will deal with various information that actually there to create heart disease. In other words, we can say that, here we will learn about various factors that actually cause heart disease and also made an exploratory data analysis to understand these disease related factors that can cause heart problem in a human body.
+```{r}
+#Related Work:
+```
+Like the other domains, data researchers are also making their impact in medical domains as well. Variety of disease and its related information is hereby analysed to understand the disease better and thus it can also conclude the precautionary measures that one can take to get rid of various disease. In this scope of work, we will discuss on the heart disease. In the year of 2019, Fadoua Khennou et. Al has developed a work to make a prediction of heart disease and they also analyses the various factors that are correlated with this disease in their research. Like our designed work, R. Indrakumari et. Al also makes research on the exploratory data analysis of heart disease to understand the correlated factors and along with that the prediction of heart disease on the basis of this correlated attributes.
+```{r}
+#Initial Question:
+```
+The proposed work is developed to analyse and understand the set of information first. Then based on the reports we will here develop a ShinyApp application where we will analyse the heart diseases related factors and also make a plot to understand the correlated attributes that are present in the proposed heart disease dataset.
+```{r}
+#Exploratory Data Analysis:
+```
+As we have mentioned earlier that we will create a ShinyApp using heart disease dataset in R programming environment. So here in the user inface we will select some information from the user choice and based on the selected choices, we will make an analysis, plotted histogram and tabular data to understand the entire dataset.
+```{r}
+#Data Analysis:
+```
+In the first section of this work, we will plot a correlational matrix based on Pearson Method to understand the pairwise correlations of the attributes present in the dataset. After that we will plot a histogram and table data based on the selected choices that has been made by a user. Mainly we are analysing the information based on the user choice data and make a data filter based on that.
+```{r}
+#Narrative and Summary:
+```
+We have successfully created our desired ShinyAp using the R Studio and that is successfully running in local servers. The filter information is running smoothly and the table and the histogram plot is also working fine. From the entire work we can conclude that, we have successfully analysed the data and also able to visualize the filtered information and correlational matrices that are available in the proposed heart disease dataset.
+
+
+
+
+
+
